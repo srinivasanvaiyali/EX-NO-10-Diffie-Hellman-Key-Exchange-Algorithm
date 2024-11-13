@@ -36,10 +36,14 @@ int main()
     long long int P, G, x, a, y, b, ka, kb;
     // Both the persons will be agreed upon the
     // public keys G and P
-    printf("\n                  *****Diffie-Hellman Key Exchange algorithm*****\n\n");
+    printf("\n*****Diffie-Hellman Key Exchange algorithm*****\n\n");
+    
     printf("\n\nEnter the value of P: ");
+    
     scanf("%lld",&P); // A prime number P is taken
+    
     printf("The value of P: %lld\n", P);
+    
     printf("Enter the value of G (Primitive root of P): ");
     scanf("%lld",&G); // A primitive root for P, G is taken
     printf("The value of G: %lld\n\n", G);
@@ -63,6 +67,7 @@ int main()
 
 ## Output:
 
+![image](https://github.com/user-attachments/assets/d485687f-7209-47af-8fcd-848a1203c9ab)
 
 
 ## Result:
